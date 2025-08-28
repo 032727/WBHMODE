@@ -56,12 +56,12 @@ Items: {
 
 	AbnormalAxe: {
 		DisplayName: 不正常斧
-		// Tooltip: ""
+		Tooltip: ""
 	}
 
 	FakeHammer: {
 		DisplayName: 不真实锤
-		// Tooltip: ""
+		Tooltip: ""
 	}
 
 	ImaginationGripperFishingRod: {
@@ -78,6 +78,26 @@ Items: {
 		DisplayName: 滴泪面具
 		Tooltip: ""
 	}
+
+	GypsumHead: {
+		DisplayName: 石膏头
+		Tooltip: ""
+	}
+
+	WildHalberd: {
+		DisplayName: 荒戟
+		Tooltip: ""
+	}
+
+	TerminalBall: {
+		DisplayName: 终止球
+		Tooltip: ""
+	}
+
+	ImaginationGun: {
+		DisplayName: 臆想枪
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -88,6 +108,9 @@ Projectiles: {
 	// ImaginationGripperBobber.DisplayName: Imagination Gripper Bobber
 	// TearingMaskProjectile.DisplayName: Tearing Mask Projectile
 	// TearingMaskFog.DisplayName: Tearing Mask Fog
+	// GypsumHeadProjectile.DisplayName: Gypsum Head Projectile
+	// WildHalberdProjectile.DisplayName: Wild Halberd Projectile
+	// TerminalBallProjectile.DisplayName: Terminal Ball Projectile
 }
 
 Tiles: {
@@ -101,8 +124,8 @@ WorldGen: {
 }
 
 Buffs: {
-	AcidEtchingBuff: {
-		// DisplayName: Acid Etching Buff
-		// Description: Mods.WBHMODE.Buffs.AcidEtchingBuff.Description
+	AcidEtchingDebuff: {
+		// DisplayName: Acid Etching Debuff
+		// Description: Mods.WBHMODE.Buffs.AcidEtchingDebuff.Description
 	}
 }

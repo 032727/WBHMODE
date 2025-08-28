@@ -82,6 +82,26 @@ Items: {
 		DisplayName: Tearing Mask
 		Tooltip: ""
 	}
+
+	GypsumHead: {
+		DisplayName: Gypsum Head
+		Tooltip: ""
+	}
+
+	WildHalberd: {
+		DisplayName: Wild Halberd
+		Tooltip: ""
+	}
+
+	TerminalBall: {
+		DisplayName: Terminal Ball
+		Tooltip: ""
+	}
+
+	ImaginationGun: {
+		DisplayName: Imagination Gun
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -92,6 +112,9 @@ Projectiles: {
 	ImaginationGripperBobber.DisplayName: Imagination Gripper Bobber
 	TearingMaskProjectile.DisplayName: Tearing Mask Projectile
 	TearingMaskFog.DisplayName: Tearing Mask Fog
+	GypsumHeadProjectile.DisplayName: Gypsum Head Projectile
+	WildHalberdProjectile.DisplayName: Wild Halberd Projectile
+	TerminalBallProjectile.DisplayName: Terminal Ball Projectile
 }
 
 Tiles: {
@@ -105,8 +128,8 @@ WorldGen: {
 }
 
 Buffs: {
-	AcidEtchingBuff: {
-		DisplayName: Acid Etching Buff
-		Description: Mods.WBHMODE.Buffs.AcidEtchingBuff.Description
+	AcidEtchingDebuff: {
+		DisplayName: Acid Etching Debuff
+		Description: Mods.WBHMODE.Buffs.AcidEtchingDebuff.Description
 	}
 }

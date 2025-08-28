@@ -1,4 +1,4 @@
-﻿#define DEBUG
+﻿//#define DEBUG
 
 using System;
 using System.Collections.Generic;
@@ -32,9 +32,10 @@ namespace WBHMODE.Content.Items.Weapons
             Item.useStyle = ItemUseStyleID.Swing; // 使用方式
             Item.knockBack = 0; // 击退
             Item.value = Item.buyPrice(silver: 27); // 售价
-            Item.rare = ItemRarityID.White; // 稀有度
+            Item.rare = ItemRarityID.Blue; // 稀有度
             Item.UseSound = SoundID.Item1; // 音效
             Item.autoReuse = true; // 自动攻击
+            //Item.useTurn = true;
         }
         public override void AddRecipes()
         {
@@ -51,10 +52,10 @@ namespace WBHMODE.Content.Items.Weapons
         }
         public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone)
         {
-            int value = Main.rand.Next(5);
+            int value = Main.rand.Next(2);
             if (value == 0)
             {
-                target.AddBuff(ModContent.BuffType<AcidEtchingBuff>(), 150);
+                target.AddBuff(ModContent.BuffType<AcidEtchingDebuff>(), 150);
             }
         }
         public override void MeleeEffects(Player player, Rectangle hitbox)
