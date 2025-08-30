@@ -112,6 +112,11 @@ Items: {
 		DisplayName: Composure Ring
 		Tooltip: ""
 	}
+
+	TestPlaceable: {
+		DisplayName: Test Placeable
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -147,5 +152,10 @@ Buffs: {
 	ComposureRingBuff: {
 		DisplayName: Composure Ring Buff
 		Description: Mods.WBHMODE.Buffs.ComposureRingBuff.Description
+	}
+
+	ComposureRingDebuff: {
+		DisplayName: Composure Ring Debuff
+		Description: Mods.WBHMODE.Buffs.ComposureRingDebuff.Description
 	}
 }

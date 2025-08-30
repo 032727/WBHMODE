@@ -10,19 +10,19 @@ using WBHMODE.Common.Players;
 
 namespace WBHMODE.Content.Buffs
 {
-    public class ComposureRingBuff : ModBuff
+    public class ComposureRingDebuff : ModBuff
     {
         public override void SetStaticDefaults()
         {
-            Main.debuff[Type] = false;
+            Main.debuff[Type] = true;
             Main.pvpBuff[Type] = false;
             //Main.buffNoSave[Type] = true;
-            Main.buffNoTimeDisplay[Type] = true;
-            BuffID.Sets.GrantImmunityWith[Type].Add(ModContent.BuffType<ComposureRingBuff>());
+            Main.buffNoTimeDisplay[Type] = false;
+            BuffID.Sets.GrantImmunityWith[Type].Add(ModContent.BuffType<ComposureRingDebuff>());
         }
         public override void Update(Player player, ref int buffIndex)
         {
-            player.GetModPlayer<ModGlobalPlayer>().composureRingBuff = true;
+            player.GetModPlayer<ModGlobalPlayer>().composureRingDebuff = true;
         }
     }
 }
