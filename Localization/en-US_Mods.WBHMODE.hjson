@@ -117,6 +117,31 @@ Items: {
 		DisplayName: Test Placeable
 		Tooltip: ""
 	}
+
+	ErrorArrow: {
+		DisplayName: Error Arrow
+		Tooltip: ""
+	}
+
+	WailingRock: {
+		DisplayName: Wailing Rock
+		Tooltip: ""
+	}
+
+	SilenceGreaves: {
+		DisplayName: Silence Greaves
+		Tooltip: ""
+	}
+
+	SilenceHelmet: {
+		DisplayName: Silence Helmet
+		Tooltip: ""
+	}
+
+	SilenceScalemail: {
+		DisplayName: Silence Scalemail
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -131,6 +156,8 @@ Projectiles: {
 	WildHalberdProjectile.DisplayName: Wild Halberd Projectile
 	TerminalBallProjectile.DisplayName: Terminal Ball Projectile
 	ComposureRingProjectile.DisplayName: Composure Ring Projectile
+	ErrorArrow.DisplayName: Error Arrow
+	ErrorArrowProjectile.DisplayName: Error Arrow Projectile
 }
 
 Tiles: {
@@ -157,5 +184,20 @@ Buffs: {
 	ComposureRingDebuff: {
 		DisplayName: Composure Ring Debuff
 		Description: Mods.WBHMODE.Buffs.ComposureRingDebuff.Description
+	}
+
+	SilenceArmorBuff: {
+		DisplayName: Silence Armor Buff
+		Description: Mods.WBHMODE.Buffs.SilenceArmorBuff.Description
+	}
+
+	SilenceArmorTimerBuff: {
+		DisplayName: Silence Armor Timer Buff
+		Description: Mods.WBHMODE.Buffs.SilenceArmorTimerBuff.Description
+	}
+
+	HalfDeclineDebuff: {
+		DisplayName: Half Decline Debuff
+		Description: Mods.WBHMODE.Buffs.HalfDeclineDebuff.Description
 	}
 }
